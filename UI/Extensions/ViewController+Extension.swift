@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 extension UIViewController {
-    func initFromXib(xibName: String) {
+    func initFromXib(_ xibName: String) {
         self.view = UIView(frame: UIScreen.main.nativeBounds)
-        self.view.initFromXib(xibName: xibName, owner: self)
+        self.view.initFromXib(xibName, owner: self)
     }
 }

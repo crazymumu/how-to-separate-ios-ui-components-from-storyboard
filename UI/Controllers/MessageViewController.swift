@@ -13,7 +13,7 @@ class MessageViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     
     override func loadView() {
-        self.initFromXib(xibName: "MessageViewController")
+        self.initFromXib("MessageViewController")
     }
     
     @IBAction func clickDismiss(_ sender: Any) {

@@ -15,6 +15,6 @@ import UIKit
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        self.initFromXib(xibName: "InputField")
+        self.initFromXib("InputField")
     }
 }
